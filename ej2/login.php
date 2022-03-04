@@ -29,8 +29,8 @@ session_start();
 		<form action="procesarLogin.php" method="POST">
 		<fieldset>
 			<legend>Usuario y contraseña</legend>
-			<div><label>Nombre:</label> <input type="text" name="username" /></div>
-			<div><label>Contraseña:</label> <input type="password" name="password" /></div>
+			<div><label for="username">Nombre:</label> <input type="text" name="username" /></div>
+			<div><label for="password">Contraseña:</label> <input type="password" name="password" /></div>
 			<button type="submit">Enviar</button>
 		</fieldset>
 	</article>
